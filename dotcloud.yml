@@ -3,4 +3,4 @@ blog:
   approot: unionx
 
 data:
-  type: mysql
+  type: mongodb
