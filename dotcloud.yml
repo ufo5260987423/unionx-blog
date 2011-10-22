@@ -1,0 +1,6 @@
+blog:
+  type: java
+  approot: unionx
+
+data:
+  type: mysql
