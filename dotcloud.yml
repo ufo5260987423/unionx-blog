@@ -2,5 +2,9 @@ blog:
   type: java
   approot: unionx
 
-data2:
-  type: mongodb
+bugzilla:
+  type: perl
+  approot: bugzilla
+
+db:
+  type: postgresql
