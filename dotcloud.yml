@@ -1,3 +1,10 @@
+wordpress:
+  type: php
+  approot: unionx
+
 bugzilla:
   type: perl
   approot: bugzilla
+
+database:
+  type: mysql
