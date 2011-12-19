@@ -14,20 +14,17 @@
  */
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
-
-$envjson = json_decode(file_get_contents("/home/dotcloud/environment.json") ,true);
-
 /** WordPress 数据库的名称 */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'database_name_here');
 
 /** MySQL 数据库用户名 */
-define('DB_USER', 'unionx');
+define('DB_USER', 'username_here');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', '21121math');
+define('DB_PASSWORD', 'password_here');
 
 /** MySQL 主机 */
-define('DB_HOST', $envjson['DOTCLOUD_DB_MYSQL_HOST'].':'.$envjson['DOTCLOUD_DB_MYSQL_PORT']);
+define('DB_HOST', 'localhost');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');

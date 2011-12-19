@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+# This file is part of the Wordpress On Dotcloud package.
+# 
+# (c) Quentin Pleplé <quentin.pleple@gmail.com>
+# 
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code.
+
+
+# Reads environment.json and config MySQL values in wp-config.php
+./dotcloud-scripts/feed-wp-config.php
+
+# Move wp-content to make it persistent
+./dotcloud-scripts/persist-wp-content.sh

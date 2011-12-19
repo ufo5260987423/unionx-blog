@@ -1,6 +1,6 @@
 wordpress:
   type: php
-  approot: unionx
+  approot: wordpress
 
 bugzilla:
   type: perl
