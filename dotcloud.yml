@@ -1,5 +1,5 @@
 blog:
-  type: java
+  type: php
   approot: unionx
 
 bugzilla:
@@ -7,4 +7,4 @@ bugzilla:
   approot: bugzilla
 
 db:
-  type: postgresql
+  type: mysql
