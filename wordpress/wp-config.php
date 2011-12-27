@@ -22,10 +22,10 @@ $envjson = json_decode(file_get_contents("/home/dotcloud/environment.json"),true
 define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'unionx');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '21121math');
+define('DB_PASSWORD', 'hhWYTTI49NRMP0vpz5hL');
 
 /** MySQL hostname */
 define('DB_HOST', $envjson['DOTCLOUD_DB_MYSQL_HOST'].':'.$envjson['DOTCLOUD_DB_MYSQL_PORT']);
