@@ -1,10 +1,8 @@
-wordpress:
-  type: php
-  approot: wordpress
+about:
+  type: python
+  approot: about
 
-bugzilla:
-  type: perl
-  approot: bugzilla
+blog:
+  type: ruby
+  approot: blog
 
-database:
-  type: mysql
