@@ -1,8 +1,4 @@
-about:
-  type: python
-  approot: about
-
-blog:
-  type: ruby
-  approot: blog
+unionx:
+  type: static
+  approot: unionx
 
