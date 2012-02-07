@@ -41,7 +41,12 @@ body {
 }
 
 #content p {
-    line-height: 24px;
+    line-height: 25px;
+}
+
+#content ul p {
+    line-height: 25px;
+    margin: 5px 0 0 5px;
 }
 
 div#foot a, div#content a {
