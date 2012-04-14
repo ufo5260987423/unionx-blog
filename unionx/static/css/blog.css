@@ -1,21 +1,8 @@
-a:link, a:visited {
-    margin: 0 10px 0 10px;
-    color: #000;
-    text-decoration: none;
-}
-
-a:hover {
-    margin: 0 10px 0 10px;
-    color: #000;
-    text-decoration: underline;
-}
-
 body {
     background-color: #000000;
 }
 
 #head {
-    color: #FFFFFF;
     width: 800px;
     margin: 0 auto 0 auto;
     padding: 30px 10px 20px 10px;
@@ -25,6 +12,10 @@ body {
     text-align: left;
 }
 
+#head a {
+    color: #FFF;
+}
+
 #main {
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -32,34 +23,23 @@ body {
     width: 800px;
 }
 
-#content {
-    font-size: 16px;
-    font-weight: 500;
-    padding: 60px 0 20px 0;
-    margin: 0 80px 0 80px;
-    text-align: left;
+ul {
+    list-style-type: none;
 }
 
-#content p {
-    line-height: 25px;
+#title {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 20px 0 20px 0;
+    margin: auto;
+    text-align: center;
 }
 
-#content ul p {
-    line-height: 25px;
-    margin: 5px 0 0 5px;
-}
-
-div#foot a, div#content a {
-    color: red;
-}
-
-p.title {
-    font-size: 20px;
-    font-weight: 800;
-}
-
-ul li {
-    line-height: 25px;
+#posts {
+    padding-top: 10px;
+    margin: 0 200px 0 200px;
+    text-align: center;
+    font-size: 18px;
 }
 
 #foot {
@@ -78,9 +58,29 @@ ul li {
     float: right;
 }
 
+a:link, a:visited {
+    margin: 0 10px 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    margin: 0 10px 0 10px;
+    color: #000;
+    text-decoration: underline;
+}
+
 #disqus_thread {
     background-color: white;
     width: 700px;
     margin: 30px 0 0 30px;
+}
+
+#dsq-pagination {
+    padding-bottom: 1px;
+}
+
+.dsq-comment-body, .dsq-textarea-background {
+    margin-left: 10px;
 }
 
