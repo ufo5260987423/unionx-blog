@@ -1,3 +1,5 @@
-* 不要再折腾了不要再折腾了了了了
+* 个人主页
 
-[[http://disqus.com][Disqus]]真是个好东西！
+个人主页是 http://www.unionx.net
+
+文章就直接放在 issues 里了，方便评论
