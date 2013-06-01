@@ -4,13 +4,15 @@
         ring.adapter.jetty)
   (:require [compojure.handler :as handler]
             [compojure.route :as route]
-            [ring.util.response :as response]))
+            [ring.util.response :as response]
+            [net.cgrand.enlive-html :as html]))
 
-(defn html [path]
-  (response/resource-response path {:root "public/html"}))
+
+(html/deftemplate index "public/html/index.html"
+  [])
 
 (defroutes app-routes
-  (GET "/" [] (html "index.html"))
+  (GET "/" [] (index))
   (route/resources "/")
   (route/not-found "Not Found"))
 

@@ -3,6 +3,7 @@
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [compojure "1.1.5"]
+                 [enlive "1.1.1"]
                  [ring "1.1.8"]]
   :main blog.handler
   :plugins [[lein-ring "0.8.5"]]
