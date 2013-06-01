@@ -3,10 +3,14 @@
   (:use compojure.core
         ring.adapter.jetty)
   (:require [compojure.handler :as handler]
-            [compojure.route :as route]))
+            [compojure.route :as route]
+            [ring.util.response :as response]))
+
+(defn html [path]
+  (response/resource-response path {:root "public/html"}))
 
 (defroutes app-routes
-  (GET "/" [] "Hello World")
+  (GET "/" [] (html "index.html"))
   (route/resources "/")
   (route/not-found "Not Found"))
 
