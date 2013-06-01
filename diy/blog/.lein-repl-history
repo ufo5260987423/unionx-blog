@@ -1,0 +1,7 @@
+(get (System/getevn) "HOME")
+(get (System/getevn.) "HOME")
+(System/getenv)
+(get (System/getenv) "HOME")
+(get (get (System/getenv) "PORT")
+)
+(get (System/getenv) "PORT")
