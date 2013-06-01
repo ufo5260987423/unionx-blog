@@ -1,5 +1,0 @@
-* 个人主页
-
-个人主页是 http://www.unionx.net
-
-文章就直接放在 issues 里了，方便评论
